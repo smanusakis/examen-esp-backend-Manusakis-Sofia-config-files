@@ -9,10 +9,11 @@ spring:
     generate-ddl: true
     show-sql: true
   datasource:
-    url: jdbc:mysql://localhost:3306 (ver qué onda es0)
-    username: root
-    password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3308
+    username: movie-service
+    password: movie-service
+
 
 eureka:
   instance:
