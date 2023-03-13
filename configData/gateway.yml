@@ -13,7 +13,7 @@ spring:
         - id: id-catalog-service
           uri: lb://catalog-service
           predicates:
-            - Path=/api/customer/**
+            - Path=/api/catalog-service/**
 
 info:
   app:
